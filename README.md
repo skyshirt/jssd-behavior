@@ -3,10 +3,14 @@
 ## 快速安装
 
 ```
-npm install jssdk-crib --registry http://124.70.6.203:4873
+npm adduser --registry http://124.70.6.203:4873
 ```
 用户名：user_crib
 密码：123123
+
+```
+npm install jssdk-crib --registry http://124.70.6.203:4873
+```
 - 注
 此版本暂未验证methods.json中的allow，看业务需要，下个版本也许会增加，所以如有新增或修改的methods，请按现有结构改写。
 
