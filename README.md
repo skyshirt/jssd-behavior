@@ -72,7 +72,7 @@ this.$Behavior[saveType](saveValue, {
 ## saveValue
 ### clickButton
 | 属性 | 说明 | 类型 | 必填 |
-|--------|--------|--------|
+|--------|--------|--------|--------|
 | exhibitionChannel | 销售渠道，由业务传入 | string | 必填 |
 | clickCategory | 事件分类，由业务传入1:banner2:快捷入口3:专属产品4:热门产品5:产品列表6:职域营销7:推荐产品 | string | 必填 |
 | openId | openId，由业务传入 | string | 必填 |
@@ -82,7 +82,7 @@ this.$Behavior[saveType](saveValue, {
 
 ### searchKeyword
 | 属性 | 说明 | 类型 | 必填 |
-|--------|--------|--------|
+|--------|--------|--------|--------|
 | exhibitionChannel | 销售渠道，由业务传入 | string | 必填 |
 | keyword | 关键词，由业务传入 | string | 必填 |
 | openId | openId，由业务传入 | string | 必填 |
