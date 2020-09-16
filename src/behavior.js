@@ -19,10 +19,10 @@ const Behavior = function (options) {
 
 Behavior.prototype = {
   _post (saveType, saveValue, options) {
-    if (typeof saveValue !== 'objcet') {
+    if (typeof saveValue !== 'object') {
       throw('saveValue必须为对象{key:value}')
     }
-    if (typeof options !== 'objcet') {
+    if (typeof options !== 'object') {
       throw('配置参数必须为对象{key:value}')
     }
     // var methods = this.options.methods

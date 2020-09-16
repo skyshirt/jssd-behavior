@@ -1,6 +1,6 @@
 {
   "name": "jssdk-crib",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "",
   "scripts": {
     "build": "rollup -c rollup.config.js"
