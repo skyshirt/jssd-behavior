@@ -30,7 +30,7 @@ Behavior.prototype = {
     return axios.post(prefix + url, {
       token,
       saveType,
-      saveValue
+      saveValue: JSON.stringify(saveValue)
     })
   }
 }
