@@ -10,17 +10,23 @@ const Behavior = function (options) {
   }, options)
   // 方法
   for (const saveType in this.options.methods) {
-    this[saveType] = (saveValue) => {
-      return this._post(saveType, saveValue)
+    this[saveType] = (saveValue, option = {}) => {
+      return this._post(saveType, saveValue, option)
     }
   }
   return this
 }
 
 Behavior.prototype = {
-  _post (saveType, saveValue) {
+  _post (saveType, saveValue, options) {
+    if (typeof saveValue !== 'objcet') {
+      throw('saveValue必须为对象{key:value}')
+    }
+    if (typeof options !== 'objcet') {
+      throw('配置参数必须为对象{key:value}')
+    }
     // var methods = this.options.methods
-    const { prefix, url, token } = this.options
+    const { prefix, url, token } = { ...this.options, ...options }
     return axios.post(prefix + url, {
       token,
       saveType,
