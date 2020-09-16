@@ -39,7 +39,7 @@ this.$Behavior.clickButton({
 | token | 用户登录态 | string | '' | 必填 |
 | prefix | 按工程配置填，一般使用axios的baseUrl | string | '' | 必填 |
 | url | 埋点接口地址 | string | '/BehaviorAnalysisController/saveBehaviorAnalysis' | 非必填 |
-| methods | 埋点方法json数据，如有新增或修改，传入对象即可自动合并，数据结构参考methods.json | json\|object | /src/methods.json | 非必填 |
+| methods | 埋点方法json数据，如有新增或修改，传入对象即可自动合并，数据结构参考methods.json | json`|`object | /src/methods.json | 非必填 |
 
 ## 手动设置option
 
