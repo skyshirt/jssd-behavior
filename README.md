@@ -89,7 +89,7 @@ this.$Behavior[saveType](saveValue, {
 | userAgent | 客户端信息，由sdk传入 | string | 必填 |
 ### viewPage
 | 属性 | 说明 | 类型 | 必填 |
-|--------|--------|--------|
+|--------|--------|--------|--------|
 | exhibitionChannel | 销售渠道，由业务传入 | string | 必填 |
 | pageClassification | 页面分类，由业务传入1:首页2:产品3:投保流程4:我的 | string | 必填 |
 | visitSource | 访问来源，由业务传入1:快捷入口2:banner3:首页专属产品4:热门产品5:产品列表6:团单推荐产品 | string | 必填 |
@@ -102,6 +102,6 @@ this.$Behavior[saveType](saveValue, {
 | userAgent | 客户端信息，由sdk传入 | string | 必填 |
 ### viewPageStayLength
 | 属性 | 说明 | 类型 | 必填 |
-|--------|--------|--------|
+|--------|--------|--------|--------|
 | id | 页面访问返回id，由业务传入 | string | 必填 |
 | stayLength | 页面停留时长，由sdk传入 | string | 必填 |
