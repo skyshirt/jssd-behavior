@@ -1,6 +1,6 @@
 {
   "name": "jssdk-behavior",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "",
   "scripts": {
     "build": "rollup -c rollup.config.js"
