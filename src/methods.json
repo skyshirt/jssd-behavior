@@ -22,10 +22,6 @@
     "buttonName": {
       "_description": "按钮名称，由业务传入",
       "type": "string"
-    },
-    "userAgent": {
-      "_description": "客户端信息，由sdk传入",
-      "type": "string"
     }
   },
   "searchKeyword": {
@@ -36,10 +32,6 @@
     },
     "keyword": {
       "_description": "关键词，由业务传入",
-      "type": "string"
-    },
-    "userAgent": {
-      "_description": "客户端信息，由sdk传入",
       "type": "string"
     }
   },
@@ -107,19 +99,11 @@
       "sequence": {
         "_description": "热门产品展示顺序 当 pageType = 3时，必填",
         "type": "string|number"
-      },
-      "userAgent": {
-        "_description": "客户端信息，由sdk传入",
-        "type": "string"
       }
     }
   },
   "viewPageStayLength": {
     "_description": "页面停留时长",
-    "id": {
-      "_description": "页面访问返回id，由业务传入",
-      "type": "string"
-    },
     "stayLength": {
       "_description": "页面停留时长，由sdk传入",
       "type": "string|number"
