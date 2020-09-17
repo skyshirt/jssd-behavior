@@ -1,5 +1,5 @@
 {
-  "name": "jssdk-crib",
+  "name": "behavior-jssdk",
   "version": "1.0.22",
   "description": "",
   "scripts": {
@@ -11,8 +11,8 @@
   },
   "keywords": [
     "jssdk",
-    "crib",
-    "jssdk_crib"
+    "behavior",
+    "behavior-jssdk"
   ],
   "main": "src/index.js",
   "author": "sunidea",

@@ -1,4 +1,4 @@
-# JSSDK-CRIB
+# Behavior JSSDK
 
 ## 快速安装
 

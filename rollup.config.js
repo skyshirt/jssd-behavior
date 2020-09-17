@@ -10,10 +10,10 @@ export default {
   input: './src/index.js',
   output: [
     {
-      file: 'dist/jssdk_crib.min.js',
+      file: 'dist/behavior.jssdk.min.js',
       format: 'umd',
       // format: 'cjs',
-      name: 'jssdk_crib'
+      name: 'behavior.jssdk'
     }
   ],
   watch: {
