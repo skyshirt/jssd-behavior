@@ -49,6 +49,23 @@ export default {
 </script>
 ```
 
+viewPage 和 viewPageStayLength 使用示例
+```
+export default {
+  created () {
+    this.$Behavior.viewPage({
+      exhibitionChannel: 1,
+      pageClassification: 1,
+      visitSource: 1,
+      pageType: '首页'
+    })
+  },
+  beforeDestroy () {
+    this.$Behavior.viewPageStayLength()
+  },
+}
+```
+
 ## option手动设置
 示例：main.js
 ```
