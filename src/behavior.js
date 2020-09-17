@@ -41,11 +41,11 @@ Behavior.prototype = {
         } else {
           return Promise.reject(new Error('页面停留参数"stayLength" 有效值为大于3的数值'))
         }
-      } else if (this.oc - OC < 3000) {
+      } else if (OC - this.oc < 3000) {
         this.oc = OC
         return
       } else {
-        saveValue.stayLength = Math.round((this.oc - OC) / 1000)
+        saveValue.stayLength = Math.round((OC - this.oc) / 1000)
       }
     }
     // var methods = this.options.methods
