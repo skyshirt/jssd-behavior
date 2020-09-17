@@ -52,7 +52,7 @@ export default {
 viewPage 和 viewPageStayLength 使用示例
 ```
 export default {
-  created () {
+  mounted () {
     this.$Behavior.viewPage({
       exhibitionChannel: 1,
       pageClassification: 1,
