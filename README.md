@@ -1,4 +1,4 @@
-# Behavior JSSDK
+# jssdk-behavior
 
 ## 快速安装
 
@@ -9,7 +9,7 @@ npm adduser --registry http://124.70.6.203:4873
 密码：123123
 
 ```
-npm install jssdk-crib --registry http://124.70.6.203:4873
+npm install jssdk-behavior --registry http://124.70.6.203:4873
 ```
 - 注
 此版本暂未验证methods.json中的allow，看业务需要，下个版本也许会增加，所以如有新增或修改的methods，请按现有结构改写。
@@ -17,11 +17,11 @@ npm install jssdk-crib --registry http://124.70.6.203:4873
 ## 使用
 ``` main.js
 import Vue from 'vue'
-import jssdkCrib from 'jssdk-crib'
+import jssdkBehavior from 'jssdk-crib'
 
-Vue.use(jssdkCrib[, option])
+Vue.use(jssdkBehavior[, option])
 // 初始化全局配置，可以查看配置参数
-Vue.use(jssdkCrib, {
+Vue.use(jssdkBehavior, {
   token: '', // 可在其它逻辑中配置
   prefix: '/crib-app-web', // 前缀
   url: '' // 接口地址
@@ -43,10 +43,10 @@ this.$Behavior.clickButton({
 示例：main.js
 ```
 import Vue from 'vue'
-import jssdkCrib from 'jssdk-crib'
+import jssdkBehavior from 'jssdk-behavior'
 
-Vue.use(jssdkCrib)
-jssdkCrib.Behavior.options.token = '11111111111'
+Vue.use(jssdkBehavior)
+jssdkBehavior.Behavior.options.token = '11111111111'
 ```
 示例：业务组件
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "behavior-jssdk",
+  "name": "jssdk-behavior",
   "version": "1.0.22",
   "description": "",
   "scripts": {
@@ -7,12 +7,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://code.palacesun.com/sunidea/jssdk_crib-app-vue.git"
+    "url": "git+https://code.palacesun.com/sunidea/jssdk-behavior.git"
   },
   "keywords": [
     "jssdk",
     "behavior",
-    "behavior-jssdk"
+    "jssdk-behavior"
   ],
   "main": "src/index.js",
   "author": "sunidea",
