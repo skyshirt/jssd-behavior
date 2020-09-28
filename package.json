@@ -1,6 +1,6 @@
 {
   "name": "jssdk-behavior",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "",
   "scripts": {
     "build": "rollup -c rollup.config.js"
@@ -14,7 +14,7 @@
     "behavior",
     "jssdk-behavior"
   ],
-  "main": "src/index.js",
+  "main": "dist/behavior.jssdk.min.js",
   "author": "sunidea",
   "license": "ISC",
   "devDependencies": {
