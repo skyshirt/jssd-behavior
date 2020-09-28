@@ -13,6 +13,7 @@ export default {
       file: 'dist/behavior.jssdk.min.js',
       format: 'umd',
       // format: 'cjs',
+      // format: 'esm',
       name: 'behavior.jssdk'
     }
   ],

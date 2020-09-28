@@ -2,15 +2,6 @@ import _axios from 'axios'
 import Qs from 'qs'
 
 let axios = _axios.create({})
-// let axios = _axios.create({
-// // export default axios.create({
-//   timeout: 5000,
-//   headers: {
-//     withCredentials: true,
-//     'content-type': 'application/x-www-form-urlencoded; charset=UTF-8'
-//   }
-// })
-// const isBuild = process.env.NODE_ENV === 'production'
 axios.defaults.timeout = 5000
 axios.defaults.withCredentials = true
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8'

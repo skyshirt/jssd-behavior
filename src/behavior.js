@@ -6,7 +6,7 @@ const Behavior = function (options) {
   this.options = Object.assign({
     methods: METHOD,
     prefix: '',
-    url: '/BehaviorAnalysisController/saveBehaviorAnalysis',
+    url: '',
     token: ''
   }, options)
   // 方法
