@@ -3,13 +3,7 @@
 ## 快速安装
 
 ```
-npm adduser --registry http://124.70.6.203:4873
-```
-用户名：user_crib
-密码：123123
-
-```
-npm install jssdk-behavior --registry http://124.70.6.203:4873
+npm install jssdk-behavior
 ```
 - 注
 >此版本暂未验证methods.json中的allow，看业务需要，下个版本也许会增加，所以如有新增或修改的methods，请按现有结构改写。
@@ -19,13 +13,15 @@ main.js
 ```
 import Vue from 'vue'
 import jssdkBehavior from 'jssdk-crib'
+import METHODS from './json/methods.json'
 
 Vue.use(jssdkBehavior[, option])
 // 初始化全局配置，可以查看配置参数
 Vue.use(jssdkBehavior, {
   token: '', // 可在其它逻辑中配置
-  prefix: '/crib-app-web', // 前缀
-  url: '' // 接口地址
+  prefix: '', // 前缀
+  url: '', // 接口地址
+  methods: METHODS // json对象
 })
 ```
 业务组件中，埋点使用方法
