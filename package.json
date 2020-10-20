@@ -1,13 +1,13 @@
 {
   "name": "jssdk-behavior",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "description": "",
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://code.palacesun.com/sunidea/jssdk-behavior.git"
+    "url": "https://github.com/skyshirt/jssd-behavior.git"
   },
   "keywords": [
     "jssdk",
